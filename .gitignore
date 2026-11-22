@@ -1,0 +1,16 @@
+# Lists Of Ignore Files
+
+# For include a spec file
+/config/.env
+
+# Ignore all .txt file
+*.txt
+
+# Negate a spec file from the prev ignore 
+!/motaz.txt
+
+# Ignore all the files in config folder
+config/*
+
+# Negate a spec file from config
+!config/.env.example
